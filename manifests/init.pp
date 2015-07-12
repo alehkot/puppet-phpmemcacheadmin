@@ -29,7 +29,7 @@ class phpmemcacheadmin() {
   }
 
   exec { 'php-move-phpmemcacheadmin':
-    command => "cp -r /tmp/phpmemcacheadmin/* /usr/share/phpphpmemcacheadmin/source",
+    command => "cp -r /tmp/phpmemcacheadmin/* /usr/share/phpmemcacheadmin/source",
     creates => "/usr/share/php/phpmemcacheadmin/source/index.php",
     require => [ Exec['php-extract-phpmemcacheadmin'], Exec['exec mkdir -p /usr/share/php/phpmemcacheadmin/source'] ],
   }
