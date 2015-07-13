@@ -1,7 +1,6 @@
 # == Class: phpmemcacheadmin
 #
-# This class installs the webgrind package along with the necessary configuration
-# files and a virtual host for accessing the output.
+# This class installs the phpmemcacheadmin package along with the necessary configuration.
 #
 # === Examples
 #
